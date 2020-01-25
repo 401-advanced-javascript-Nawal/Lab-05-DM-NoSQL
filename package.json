@@ -1,0 +1,29 @@
+{
+  "name": "Lab-05-DM-NoSQL",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "jest --verbose",
+    "test-watch": "jest --watchAll --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/401-advanced-javascript-Nawal/Lab-05-DM-NoSQL.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/401-advanced-javascript-Nawal/Lab-05-DM-NoSQL/issues"
+  },
+  "homepage": "https://github.com/401-advanced-javascript-Nawal/Lab-05-DM-NoSQL#readme",
+  "dependencies": {
+    "@code-fellows/supergoose": "^1.0.1",
+    "jest": "^25.1.0",
+    "mongoose": "^5.8.9"
+  }
+}
