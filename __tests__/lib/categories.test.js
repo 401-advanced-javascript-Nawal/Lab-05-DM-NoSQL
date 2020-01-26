@@ -33,7 +33,7 @@ describe(' Categories Testing ', () => {
                 }) // end of forEach 
             }) // end of then promise (record)
             .catch(e => console.error('ERR', e));
-    }); // end of it  get ()
+    }); // end of it  create ()
 
     it(' can update() A category ', () => {
         let newRec = { name: 'test category' };
@@ -47,6 +47,20 @@ describe(' Categories Testing ', () => {
                     }) // nd of then promise (catItem)
             }) // end of then promise (record)
             .catch(e => console.error('ERR', e));
-    }); // end of it  get ()
+    }); // end of it update ()
+
+    it(' can Delete() A category ', () => {
+        let newRec = { name: 'test category' };
+        return category.create(newRec)
+            .then(record => {
+                return category.delete(record._id, record)
+                    .then(catItem => {
+                        Object.keys(newRec).forEach(key => {
+                            expect(catItem[key]).toEqual(newRec[key]);
+                        }) // end of forEach 
+                    }) // nd of then promise (catItem)
+            }) // end of then promise (record)
+            .catch(e => console.error('ERR', e));
+    }); // end of it Delete ()
 
 }) // end of Categories 
