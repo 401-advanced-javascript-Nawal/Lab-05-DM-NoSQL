@@ -21,4 +21,4 @@ i.e.
 - npm run test 
 
 #### UML
-https://github.com/401-advanced-javascript-Nawal/Lab-04-Data-Modeling/blob/Model-Branch/docs/public/20200125_202057.jpg
+https://github.com/401-advanced-javascript-Nawal/Lab-05-DM-NoSQL/blob/DM-NoSQL/docs/public/20200126_165451.jpg
