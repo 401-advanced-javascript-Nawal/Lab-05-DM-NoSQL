@@ -1,12 +1,10 @@
 # Lab-05-DM-NoSQL
 
-## Classes - Data Modeling  
-
 ### Author: Nawal Suliman 
 
 ### Links and Resources
-- [submission PR](https://github.com/401-advanced-javascript-Nawal/Lab-04-Data-Modeling/pull/1)
-- [ci/cd](https://github.com/401-advanced-javascript-Nawal/Lab-04-Data-Modeling/actions/runs/30539991) (GitHub Actions)
+- [submission PR](https://github.com/401-advanced-javascript-Nawal/Lab-05-DM-NoSQL/pull/1)
+- [ci/cd](https://github.com/401-advanced-javascript-Nawal/Lab-05-DM-NoSQL/runs/409542983?check_suite_focus=true) (GitHub Actions)
 
 ### Setup
 - install the needed Dependencies JEST ESLINT and use npm run test to run it 
